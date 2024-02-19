@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194018162B7DBE3600F9748F /* PipCalcLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194018152B7DBE3600F9748F /* PipCalcLogic.swift */; };
 		19D0627B2B7C5A2000CEB574 /* tradingCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D0627A2B7C5A2000CEB574 /* tradingCalcApp.swift */; };
 		19D0627D2B7C5A2000CEB574 /* PipCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D0627C2B7C5A2000CEB574 /* PipCalcView.swift */; };
 		19D0627F2B7C5A2100CEB574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D0627E2B7C5A2100CEB574 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		194018152B7DBE3600F9748F /* PipCalcLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipCalcLogic.swift; sourceTree = "<group>"; };
 		19D062772B7C5A2000CEB574 /* tradingCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tradingCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D0627A2B7C5A2000CEB574 /* tradingCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tradingCalcApp.swift; sourceTree = "<group>"; };
 		19D0627C2B7C5A2000CEB574 /* PipCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipCalcView.swift; sourceTree = "<group>"; };
@@ -35,8 +37,10 @@
 		1940180F2B7D317700F9748F /* PipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				194018142B7DBDCF00F9748F /* Model */,
 				194018122B7D337700F9748F /* Views */,
 				194018132B7D338B00F9748F /* ViewModels */,
+				194018152B7DBE3600F9748F /* PipCalcLogic.swift */,
 			);
 			path = PipCalc;
 			sourceTree = "<group>";
@@ -70,6 +74,13 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		194018142B7DBDCF00F9748F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		19D0626E2B7C5A2000CEB574 = {
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194018162B7DBE3600F9748F /* PipCalcLogic.swift in Sources */,
 				19D0627D2B7C5A2000CEB574 /* PipCalcView.swift in Sources */,
 				19D0627B2B7C5A2000CEB574 /* tradingCalcApp.swift in Sources */,
 			);
