@@ -41,7 +41,7 @@ struct PipCalcView: View {
             }
             /// trade size selection
             HStack(spacing: 60){
-                Text("Currency pair")
+                Text("Select trade size")
                     .font(.headline)
                 Picker("Choose", selection: $currencyPair) {
                     ForEach(currencyPairItems, id: \.self) {
